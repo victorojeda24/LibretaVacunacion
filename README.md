@@ -2,8 +2,8 @@
 
 Integrantes
 
-Victor Ojeda
-Ariel Ortega
+Victor Ojeda 
+Ariel Ortega 
 Jose Aquino 
 
 
