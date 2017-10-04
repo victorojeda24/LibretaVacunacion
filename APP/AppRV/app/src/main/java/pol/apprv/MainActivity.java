@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private LinearLayout photoSeccion;
     private Button signSalida;
     private SignInButton signIngreso;
-    private TextView nombre, apellido, email;
+    private TextView nombre, email;
     private ImageView photoPie;
     private GoogleApiClient googleApiClient;
     private static final int REQ_CODE = 9001;
@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         signSalida = (Button)findViewById(R.id.botonLogOut);
         signIngreso = (SignInButton)findViewById(R.id.botonLogin);
         nombre = (TextView)findViewById(R.id.nombre);
-        apellido = (TextView)findViewById(R.id.apellido);
         email = (TextView)findViewById(R.id.email);
         photoPie = (ImageView)findViewById(R.id.photo_pie);
         signIngreso.setOnClickListener(this);
@@ -87,7 +86,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             String correo = account.getEmail();
             String imagenURL = account.getPhotoUrl().toString();
             nombre.setText(name);
-            apellido.setText(name);
             email.setText(correo);
             Glide.with(this).load(imagenURL).into(photoPie);
             updateUI(true);
