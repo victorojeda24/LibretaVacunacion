@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AppRV</string>
+    <string name="tituloAPP">Libreta Vacuna</string>
+    <string name="estadoSalida">Desconectado</string>
+    <string name="correo">Email</string>
+    <string name="textoSiguienteBoton">Siguiente</string>
+    <string name="textoDesconectarBoton">Desconectar</string>
 </resources>
