@@ -17,25 +17,27 @@
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:weightSum="1">
-        <ImageView
-            android:id="@+id/google_icon"
-            android:layout_width="213dp"
-            android:layout_height="200dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="40dp"
-            android:src="@drawable/common_google_signin_btn_icon_dark_pressed"
-            android:layout_weight="0.20"
-            />
 
         <TextView
             android:id="@+id/tituloAPP"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
             android:gravity="center"
             android:text="@string/tituloAPP"
             android:textColor="@android:color/background_dark"
             android:textSize="36sp"
+            />
+
+        <ImageView
+            android:id="@+id/google_icon"
+            android:layout_width="213dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/common_google_signin_btn_icon_dark_pressed"
+            android:layout_weight="0.20"
             />
 
         <TextView
