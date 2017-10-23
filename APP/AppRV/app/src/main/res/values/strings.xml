@@ -5,4 +5,10 @@
     <string name="correo">Email</string>
     <string name="textoSiguienteBoton">Siguiente</string>
     <string name="textoDesconectarBoton">Desconectar</string>
+
+    <!--Mensajes al establece conexión -->
+    <string name="conectado_con">Conectado con: %s</string>
+    <string name="email_es">Correo: %s</string>
+    <string name="cargando">Cargando.....</string>
+    <string name="desconectado">Desconectado</string>
 </resources>
