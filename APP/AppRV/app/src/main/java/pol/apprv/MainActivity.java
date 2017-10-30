@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements
 
     //AQUI HAY QUE CAMBIAR LA IP Y EL PUERTO DONDE SE EJECUTA EL WEB SERVICE
     public static final String servidor="http://192.168.1.72:8084";
-    //RECORDAR CAMBIAR LINEA DE ARRIBA Y EN DbHelper.java
+    //RECORDAR CAMBIAR LINEA DE ARRIBA Y EN DBHelper.java
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
